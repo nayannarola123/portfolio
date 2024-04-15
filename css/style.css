@@ -1,0 +1,117 @@
+* {
+  color: #ffffff;
+}
+body {
+  background-color: #161616;
+  font-family: "Mulish", sans-serif;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar-collapse {
+  flex-grow: 0
+}
+.navbar-nav li {
+  padding: 32px 20px;
+}
+.dropdown-menu li {
+  padding: 10px 15px;
+}
+.banner-box {
+  width: 55px;
+  height: 55px;
+  margin-left: -20px;
+}
+.banner-icon-1,
+.banner-icon-2,
+.banner-icon-3,
+.banner-icon-4 {
+  background-image: url("../img/Screenshot\ 2024-04-09\ 161232.png");
+  background-position: 50%;
+  background-size: cover;
+  margin: 4px;
+  border: 4px solid #0e0e0e;
+}
+.banner-icon-2 {
+  background-image: url("../img/65f032734e5459764b30879e_Team\ 14.webp");
+}
+.banner-icon-3 {
+  background-image: url("../img/ss.webp");
+}
+.banner-icon-4 {
+  background-image: none;
+  border: 10px solid #0e0e0e;
+}
+/* .men-img {
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/65f0168d783058bbf61333f1_Team\ 6.webp");
+  background-position: center;
+  background-size: cover;
+  margin-top: 110px;
+}
+.banner-back {
+  width: 180px;
+  height: 180px;
+  background-image: url("../img/65f032734e5459764b30879e_Team\ 14.webp");
+  background-position: center;
+  background-size: cover;
+  right: 170px;
+  top: 28px;
+} */
+/* .lets {
+  width: 140px;
+  height: 140px;
+  background-color: #161616;
+  top: 40%;
+  left: 30%;
+}
+.lets-border {
+  border: 0.5px solid white;
+  width: 120px;
+  height: 120px;
+} */
+.services-card {
+  padding: 18px 18px 100px;
+  border-radius: 250px;
+  max-width: 450px;
+  min-height: 600px;
+  text-align: center;
+  border: 1px solid #aaaaaa;
+}
+.services-img {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 250px 250px 0 0;
+  background-image: url("../img/Screenshot\ 2024-04-09\ 161232.png");
+  background-position: center;
+  background-size: cover;
+}
+.services-content {
+  padding: 100px 20px 0;
+}
+.lets.num {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services-img.s-card-2 {
+  background-image: url("../img/Screenshot\ 2024-04-09\ 201853.png");
+}
+.services-img.s-card-3 {
+  background-image: url("../img/Screenshot\ 2024-04-09\ 202911.png");
+}
+.digital-content {
+  will-change: transform;
+  transform: translate3d(-18.1376%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+.dot-digital {
+  min-width: 15px;
+  min-height: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
